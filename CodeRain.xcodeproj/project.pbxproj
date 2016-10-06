@@ -1,0 +1,281 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		54E98E7B1DA5ECA10026BD9E /* CodeRainView.h in Headers */ = {isa = PBXBuildFile; fileRef = 54E98E7A1DA5ECA10026BD9E /* CodeRainView.h */; };
+		54E98E7D1DA5ECA10026BD9E /* CodeRainView.m in Sources */ = {isa = PBXBuildFile; fileRef = 54E98E7C1DA5ECA10026BD9E /* CodeRainView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		54E98E771DA5ECA10026BD9E /* CodeRain.saver */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CodeRain.saver; sourceTree = BUILT_PRODUCTS_DIR; };
+		54E98E7A1DA5ECA10026BD9E /* CodeRainView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CodeRainView.h; sourceTree = "<group>"; };
+		54E98E7C1DA5ECA10026BD9E /* CodeRainView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CodeRainView.m; sourceTree = "<group>"; };
+		54E98E7E1DA5ECA10026BD9E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		54E98E731DA5ECA10026BD9E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		54E98E6D1DA5ECA10026BD9E = {
+			isa = PBXGroup;
+			children = (
+				54E98E791DA5ECA10026BD9E /* CodeRain */,
+				54E98E781DA5ECA10026BD9E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		54E98E781DA5ECA10026BD9E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				54E98E771DA5ECA10026BD9E /* CodeRain.saver */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		54E98E791DA5ECA10026BD9E /* CodeRain */ = {
+			isa = PBXGroup;
+			children = (
+				54E98E7A1DA5ECA10026BD9E /* CodeRainView.h */,
+				54E98E7C1DA5ECA10026BD9E /* CodeRainView.m */,
+				54E98E7E1DA5ECA10026BD9E /* Info.plist */,
+			);
+			path = CodeRain;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		54E98E741DA5ECA10026BD9E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54E98E7B1DA5ECA10026BD9E /* CodeRainView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		54E98E761DA5ECA10026BD9E /* CodeRain */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54E98E811DA5ECA10026BD9E /* Build configuration list for PBXNativeTarget "CodeRain" */;
+			buildPhases = (
+				54E98E721DA5ECA10026BD9E /* Sources */,
+				54E98E731DA5ECA10026BD9E /* Frameworks */,
+				54E98E741DA5ECA10026BD9E /* Headers */,
+				54E98E751DA5ECA10026BD9E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CodeRain;
+			productName = CodeRain;
+			productReference = 54E98E771DA5ECA10026BD9E /* CodeRain.saver */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		54E98E6E1DA5ECA10026BD9E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Jon Showing";
+				TargetAttributes = {
+					54E98E761DA5ECA10026BD9E = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = MP78K24LXX;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 54E98E711DA5ECA10026BD9E /* Build configuration list for PBXProject "CodeRain" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 54E98E6D1DA5ECA10026BD9E;
+			productRefGroup = 54E98E781DA5ECA10026BD9E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				54E98E761DA5ECA10026BD9E /* CodeRain */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		54E98E751DA5ECA10026BD9E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		54E98E721DA5ECA10026BD9E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54E98E7D1DA5ECA10026BD9E /* CodeRainView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		54E98E7F1DA5ECA10026BD9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		54E98E801DA5ECA10026BD9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		54E98E821DA5ECA10026BD9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = MP78K24LXX;
+				INFOPLIST_FILE = CodeRain/Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jonshowing.ScreenSaver.CodeRain;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = saver;
+			};
+			name = Debug;
+		};
+		54E98E831DA5ECA10026BD9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = MP78K24LXX;
+				INFOPLIST_FILE = CodeRain/Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jonshowing.ScreenSaver.CodeRain;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = saver;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		54E98E711DA5ECA10026BD9E /* Build configuration list for PBXProject "CodeRain" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54E98E7F1DA5ECA10026BD9E /* Debug */,
+				54E98E801DA5ECA10026BD9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		54E98E811DA5ECA10026BD9E /* Build configuration list for PBXNativeTarget "CodeRain" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54E98E821DA5ECA10026BD9E /* Debug */,
+				54E98E831DA5ECA10026BD9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 54E98E6E1DA5ECA10026BD9E /* Project object */;
+}
