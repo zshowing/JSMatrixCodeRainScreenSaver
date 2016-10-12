@@ -7,18 +7,45 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		544F82791DA77DFD0085686B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 544F82781DA77DFD0085686B /* AppDelegate.m */; };
+		544F827C1DA77DFD0085686B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 544F827B1DA77DFD0085686B /* main.m */; };
+		544F827E1DA77DFD0085686B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 544F827D1DA77DFD0085686B /* Assets.xcassets */; };
+		544F82811DA77DFD0085686B /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 544F827F1DA77DFD0085686B /* MainMenu.xib */; };
+		544F82861DA782270085686B /* CodeRainView.m in Sources */ = {isa = PBXBuildFile; fileRef = 54E98E7C1DA5ECA10026BD9E /* CodeRainView.m */; };
+		5476DCB01DA7BFA500F14164 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5476DCAF1DA7BFA500F14164 /* QuartzCore.framework */; };
+		54A819CB1DAD4FEA00CA9CB7 /* emit.png in Resources */ = {isa = PBXBuildFile; fileRef = 54A819CA1DAD4FEA00CA9CB7 /* emit.png */; };
+		54A819CC1DAD533A00CA9CB7 /* emit.png in Resources */ = {isa = PBXBuildFile; fileRef = 54A819CA1DAD4FEA00CA9CB7 /* emit.png */; };
 		54E98E7B1DA5ECA10026BD9E /* CodeRainView.h in Headers */ = {isa = PBXBuildFile; fileRef = 54E98E7A1DA5ECA10026BD9E /* CodeRainView.h */; };
 		54E98E7D1DA5ECA10026BD9E /* CodeRainView.m in Sources */ = {isa = PBXBuildFile; fileRef = 54E98E7C1DA5ECA10026BD9E /* CodeRainView.m */; };
+		54E98E871DA60E5A0026BD9E /* matrixcode.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 54E98E861DA60E5A0026BD9E /* matrixcode.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		544F82751DA77DFD0085686B /* CodeRainApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CodeRainApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		544F82771DA77DFD0085686B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		544F82781DA77DFD0085686B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		544F827B1DA77DFD0085686B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		544F827D1DA77DFD0085686B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		544F82801DA77DFD0085686B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		544F82821DA77DFD0085686B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5476DCAF1DA7BFA500F14164 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		54A819CA1DAD4FEA00CA9CB7 /* emit.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = emit.png; sourceTree = "<group>"; };
 		54E98E771DA5ECA10026BD9E /* CodeRain.saver */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CodeRain.saver; sourceTree = BUILT_PRODUCTS_DIR; };
 		54E98E7A1DA5ECA10026BD9E /* CodeRainView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CodeRainView.h; sourceTree = "<group>"; };
 		54E98E7C1DA5ECA10026BD9E /* CodeRainView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CodeRainView.m; sourceTree = "<group>"; };
 		54E98E7E1DA5ECA10026BD9E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		54E98E861DA60E5A0026BD9E /* matrixcode.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = matrixcode.ttf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		544F82721DA77DFD0085686B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5476DCB01DA7BFA500F14164 /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		54E98E731DA5ECA10026BD9E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -29,11 +56,42 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		544F82761DA77DFD0085686B /* CodeRainApp */ = {
+			isa = PBXGroup;
+			children = (
+				544F82771DA77DFD0085686B /* AppDelegate.h */,
+				544F82781DA77DFD0085686B /* AppDelegate.m */,
+				544F827D1DA77DFD0085686B /* Assets.xcassets */,
+				544F827F1DA77DFD0085686B /* MainMenu.xib */,
+				544F82821DA77DFD0085686B /* Info.plist */,
+				544F827A1DA77DFD0085686B /* Supporting Files */,
+			);
+			path = CodeRainApp;
+			sourceTree = "<group>";
+		};
+		544F827A1DA77DFD0085686B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				544F827B1DA77DFD0085686B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5476DCAE1DA7BFA400F14164 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5476DCAF1DA7BFA500F14164 /* QuartzCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		54E98E6D1DA5ECA10026BD9E = {
 			isa = PBXGroup;
 			children = (
 				54E98E791DA5ECA10026BD9E /* CodeRain */,
+				544F82761DA77DFD0085686B /* CodeRainApp */,
 				54E98E781DA5ECA10026BD9E /* Products */,
+				5476DCAE1DA7BFA400F14164 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -41,6 +99,7 @@
 			isa = PBXGroup;
 			children = (
 				54E98E771DA5ECA10026BD9E /* CodeRain.saver */,
+				544F82751DA77DFD0085686B /* CodeRainApp.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -48,6 +107,8 @@
 		54E98E791DA5ECA10026BD9E /* CodeRain */ = {
 			isa = PBXGroup;
 			children = (
+				54A819CA1DAD4FEA00CA9CB7 /* emit.png */,
+				54E98E861DA60E5A0026BD9E /* matrixcode.ttf */,
 				54E98E7A1DA5ECA10026BD9E /* CodeRainView.h */,
 				54E98E7C1DA5ECA10026BD9E /* CodeRainView.m */,
 				54E98E7E1DA5ECA10026BD9E /* Info.plist */,
@@ -69,6 +130,23 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		544F82741DA77DFD0085686B /* CodeRainApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 544F82831DA77DFD0085686B /* Build configuration list for PBXNativeTarget "CodeRainApp" */;
+			buildPhases = (
+				544F82711DA77DFD0085686B /* Sources */,
+				544F82721DA77DFD0085686B /* Frameworks */,
+				544F82731DA77DFD0085686B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CodeRainApp;
+			productName = CodeRainApp;
+			productReference = 544F82751DA77DFD0085686B /* CodeRainApp.app */;
+			productType = "com.apple.product-type.application";
+		};
 		54E98E761DA5ECA10026BD9E /* CodeRain */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 54E98E811DA5ECA10026BD9E /* Build configuration list for PBXNativeTarget "CodeRain" */;
@@ -93,12 +171,19 @@
 		54E98E6E1DA5ECA10026BD9E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0800;
 				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = "Jon Showing";
 				TargetAttributes = {
+					544F82741DA77DFD0085686B = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = MP78K24LXX;
+						ProvisioningStyle = Automatic;
+					};
 					54E98E761DA5ECA10026BD9E = {
 						CreatedOnToolsVersion = 8.0;
 						DevelopmentTeam = MP78K24LXX;
+						LastSwiftMigration = 0800;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -109,6 +194,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = 54E98E6D1DA5ECA10026BD9E;
 			productRefGroup = 54E98E781DA5ECA10026BD9E /* Products */;
@@ -116,21 +202,44 @@
 			projectRoot = "";
 			targets = (
 				54E98E761DA5ECA10026BD9E /* CodeRain */,
+				544F82741DA77DFD0085686B /* CodeRainApp */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		544F82731DA77DFD0085686B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				544F827E1DA77DFD0085686B /* Assets.xcassets in Resources */,
+				544F82811DA77DFD0085686B /* MainMenu.xib in Resources */,
+				54A819CC1DAD533A00CA9CB7 /* emit.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		54E98E751DA5ECA10026BD9E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				54A819CB1DAD4FEA00CA9CB7 /* emit.png in Resources */,
+				54E98E871DA60E5A0026BD9E /* matrixcode.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		544F82711DA77DFD0085686B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				544F82861DA782270085686B /* CodeRainView.m in Sources */,
+				544F827C1DA77DFD0085686B /* main.m in Sources */,
+				544F82791DA77DFD0085686B /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		54E98E721DA5ECA10026BD9E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -141,7 +250,44 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXVariantGroup section */
+		544F827F1DA77DFD0085686B /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				544F82801DA77DFD0085686B /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
+		544F82841DA77DFD0085686B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = MP78K24LXX;
+				INFOPLIST_FILE = CodeRainApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jonshowing.ScreenSaver.CodeRainApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		544F82851DA77DFD0085686B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = MP78K24LXX;
+				INFOPLIST_FILE = CodeRainApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jonshowing.ScreenSaver.CodeRainApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		54E98E7F1DA5ECA10026BD9E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -232,12 +378,16 @@
 		54E98E821DA5ECA10026BD9E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = MP78K24LXX;
 				INFOPLIST_FILE = CodeRain/Info.plist;
 				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jonshowing.ScreenSaver.CodeRain;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 				WRAPPER_EXTENSION = saver;
 			};
 			name = Debug;
@@ -245,12 +395,15 @@
 		54E98E831DA5ECA10026BD9E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = MP78K24LXX;
 				INFOPLIST_FILE = CodeRain/Info.plist;
 				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jonshowing.ScreenSaver.CodeRain;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				WRAPPER_EXTENSION = saver;
 			};
 			name = Release;
@@ -258,6 +411,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		544F82831DA77DFD0085686B /* Build configuration list for PBXNativeTarget "CodeRainApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				544F82841DA77DFD0085686B /* Debug */,
+				544F82851DA77DFD0085686B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		54E98E711DA5ECA10026BD9E /* Build configuration list for PBXProject "CodeRain" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -274,6 +436,7 @@
 				54E98E831DA5ECA10026BD9E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

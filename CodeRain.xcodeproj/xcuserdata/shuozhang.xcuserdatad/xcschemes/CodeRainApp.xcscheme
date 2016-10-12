@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "54E98E761DA5ECA10026BD9E"
-               BuildableName = "CodeRain.saver"
-               BlueprintName = "CodeRain"
+               BlueprintIdentifier = "544F82741DA77DFD0085686B"
+               BuildableName = "CodeRainApp.app"
+               BlueprintName = "CodeRainApp"
                ReferencedContainer = "container:CodeRain.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -29,6 +29,15 @@
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "544F82741DA77DFD0085686B"
+            BuildableName = "CodeRainApp.app"
+            BlueprintName = "CodeRainApp"
+            ReferencedContainer = "container:CodeRain.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -42,15 +51,23 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
-      <MacroExpansion>
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "54E98E761DA5ECA10026BD9E"
-            BuildableName = "CodeRain.saver"
-            BlueprintName = "CodeRain"
+            BlueprintIdentifier = "544F82741DA77DFD0085686B"
+            BuildableName = "CodeRainApp.app"
+            BlueprintName = "CodeRainApp"
             ReferencedContainer = "container:CodeRain.xcodeproj">
          </BuildableReference>
-      </MacroExpansion>
+      </BuildableProductRunnable>
+      <EnvironmentVariables>
+         <EnvironmentVariable
+            key = "CG_CONTEXT_SHOW_BACKTRACE"
+            value = ""
+            isEnabled = "YES">
+         </EnvironmentVariable>
+      </EnvironmentVariables>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -60,15 +77,16 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
-      <MacroExpansion>
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "54E98E761DA5ECA10026BD9E"
-            BuildableName = "CodeRain.saver"
-            BlueprintName = "CodeRain"
+            BlueprintIdentifier = "544F82741DA77DFD0085686B"
+            BuildableName = "CodeRainApp.app"
+            BlueprintName = "CodeRainApp"
             ReferencedContainer = "container:CodeRain.xcodeproj">
          </BuildableReference>
-      </MacroExpansion>
+      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

@@ -9,9 +9,29 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>CodeRainApp.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>544F824C1DA77CBA0085686B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>544F825F1DA77DA70085686B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>544F82741DA77DFD0085686B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>54E98E761DA5ECA10026BD9E</key>
 		<dict>
 			<key>primary</key>
